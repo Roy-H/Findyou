@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>693</width>
+    <height>421</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -21,7 +21,7 @@
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="3" column="0" colspan="2">
-    <widget class="QTableWidget" name="tableWidget"/>
+    <widget class="QTableWidget" name="LocationTableView"/>
    </item>
    <item row="1" column="0">
     <widget class="QLabel" name="label">

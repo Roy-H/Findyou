@@ -1,8 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-#include<QGeoPositionInfoSource>
+
 #include <QMainWindow>
-#include <QPlaceManagerEngine>
 #include <LocationDataView.h>
 
 QT_BEGIN_NAMESPACE
@@ -18,7 +17,7 @@ public:
     ~MainWindow();
 
 public slots:
-    void OnPositionUpdated(const QGeoPositionInfo &info);
+    //void OnPositionUpdated(const QGeoPositionInfo &info);
     void RequestUpdated();
     void StartUpdated();
     void StopUpdated();
@@ -26,7 +25,7 @@ public slots:
 
 private:
     Ui::MainWindow *ui;
-    QGeoPositionInfoSource *pQGeoPositionInfoSource;
+   
 
 //controller or view
 private:
